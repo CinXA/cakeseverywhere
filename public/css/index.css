@@ -1,0 +1,89 @@
+.navbar-red{
+    background-color: #F43A38 !important;
+    color:white;
+}
+.footer-black{
+    background-color: #1b1e21;
+    color: #ffffff;
+}
+
+
+
+.text-img-center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+
+    opacity: 0.3;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+    z-index: 100;
+
+}
+#img-modal-producto{
+    max-height: 200px;
+    width: 100%;
+}
+.container-img-see{
+    position: relative;
+
+}
+.container-img-see:hover .text-img-center{
+    display: block;
+}
+.container-img-see:hover .card-img-top:hover{
+    opacity: 0.3;
+}
+
+.navbar-black a,.navbar-red a{
+    color: white;
+}
+
+.title-text{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.title-text:not(.no-border):after{
+    content: '';
+    display: block;
+    background-color: #66cc00;
+    width: 40px;
+    height: 5px;
+    margin: 2px auto 0;
+
+}
+
+.line-vertial-modal{
+    background-color: #F43A38;
+    position: relative;
+}
+.line-vertial-modal img{
+    position: absolute;
+    bottom: 0;
+    right: 0.2em;
+    width: 2.5em;
+}
+
+.btn-pink {
+    color: #1b1e21;
+    background-color: #F4CCD0;
+    border-color: #F4CCD4;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ffc107 !important;
+}
+.custom-yellow-text{
+    color: #ffc107;
+}
+
+
+.custom-yellow-text:hover{
+    color: #000;
+}
